@@ -1,0 +1,76 @@
+body {
+    font-family: tahoma;
+    background: whitesmoke;
+    color: #17B890;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+
+}
+
+#title,
+#description {
+    text-align: center;
+    color: #17B890;
+    margin: 20px auto;
+}
+
+label {
+    margin-bottom: 40px;
+}
+
+form {
+    width: 60vw;
+    min-width: 300px;
+    max-width: 500px;
+    height: 80vh;
+    margin: 20px auto;
+
+}
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: unset;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#suggestions {
+    padding: 10px;
+    background-color: #FBD99D;
+    color: #5E807F;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #17B890;
+    border-color: #17B890;
+    min-width: 300px;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
